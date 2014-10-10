@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebView.h
 //  CodeChallenge2
 //
 //  Created by Amaeya Kalke on 10/10/14.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "City.h"
 
-@interface ViewController : UIViewController
-@property (strong, nonatomic) NSMutableArray *cityArray;
+@interface WebView : UIWebView
 
 @end
-

@@ -14,6 +14,9 @@
 		6C1DF80319E820AC00B07790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DF80219E820AC00B07790 /* Images.xcassets */; };
 		6C1DF80619E820AC00B07790 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C1DF80419E820AC00B07790 /* LaunchScreen.xib */; };
 		6C1DF81219E820AC00B07790 /* CodeChallenge2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DF81119E820AC00B07790 /* CodeChallenge2Tests.m */; };
+		6C1DF81D19E821D600B07790 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DF81C19E821D600B07790 /* City.m */; };
+		6C1DF82019E82F3C00B07790 /* CItyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DF81F19E82F3C00B07790 /* CItyViewController.m */; };
+		6C1DF82D19E83EF700B07790 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1DF82C19E83EF700B07790 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		6C1DF80B19E820AC00B07790 /* CodeChallenge2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallenge2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1DF81019E820AC00B07790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C1DF81119E820AC00B07790 /* CodeChallenge2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeChallenge2Tests.m; sourceTree = "<group>"; };
+		6C1DF81B19E821D600B07790 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		6C1DF81C19E821D600B07790 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		6C1DF81E19E82F3C00B07790 /* CItyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CItyViewController.h; sourceTree = "<group>"; };
+		6C1DF81F19E82F3C00B07790 /* CItyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CItyViewController.m; sourceTree = "<group>"; };
+		6C1DF82B19E83EF700B07790 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		6C1DF82C19E83EF700B07790 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				6C1DF7F919E820AC00B07790 /* AppDelegate.h */,
 				6C1DF7FA19E820AC00B07790 /* AppDelegate.m */,
+				6C1DF82B19E83EF700B07790 /* WebViewController.h */,
+				6C1DF82C19E83EF700B07790 /* WebViewController.m */,
 				6C1DF7FC19E820AC00B07790 /* ViewController.h */,
 				6C1DF7FD19E820AC00B07790 /* ViewController.m */,
+				6C1DF81E19E82F3C00B07790 /* CItyViewController.h */,
+				6C1DF81F19E82F3C00B07790 /* CItyViewController.m */,
+				6C1DF81B19E821D600B07790 /* City.h */,
+				6C1DF81C19E821D600B07790 /* City.m */,
 				6C1DF7FF19E820AC00B07790 /* Main.storyboard */,
 				6C1DF80219E820AC00B07790 /* Images.xcassets */,
 				6C1DF80419E820AC00B07790 /* LaunchScreen.xib */,
@@ -219,8 +234,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1DF82019E82F3C00B07790 /* CItyViewController.m in Sources */,
+				6C1DF82D19E83EF700B07790 /* WebViewController.m in Sources */,
 				6C1DF7FE19E820AC00B07790 /* ViewController.m in Sources */,
 				6C1DF7FB19E820AC00B07790 /* AppDelegate.m in Sources */,
+				6C1DF81D19E821D600B07790 /* City.m in Sources */,
 				6C1DF7F819E820AC00B07790 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
